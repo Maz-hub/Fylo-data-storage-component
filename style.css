@@ -1,3 +1,14 @@
+:root {
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+  --Gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
 *,
 *::before,
 *::after {
@@ -8,6 +19,10 @@
 }
 body {
   line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  font-weight: var(--fw-regular);
+  background-color: var(--Very-Dark-Blue);
+
   -webkit-font-smoothing: antialiased;
 }
 img,
@@ -28,4 +43,13 @@ select {
 ul,
 li {
   list-style: none;
+}
+
+.background {
+  background: url(/images/bg-desktop.png) no-repeat bottom center / contain;
+  min-height: 100vh;
+}
+
+.navigation {
+  border: solid 1px yellow;
 }
