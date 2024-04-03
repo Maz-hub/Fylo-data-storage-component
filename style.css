@@ -50,6 +50,14 @@ li {
   min-height: 100vh;
 }
 
-.navigation {
-  border: solid 1px yellow;
+.shape {
+  width: 21.875rem;
+  height: 12.5625rem;
+  background-color: var(--Dark-Blue);
+  border-top-right-radius: 5rem;
+}
+
+.shape .icon-list {
+  display: flex;
+  border: solid 1px yellowgreen;
 }
